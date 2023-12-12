@@ -1,0 +1,73 @@
+    * {
+        font-family: Helvetica;   
+    }
+
+    body {
+        background-image: url("https://www.remessaonline.com.br/blog/wp-content/uploads/2022/05/real-e-euro.png");
+        background-size: 1170px 600px;
+    }
+        
+    h1 {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    table, th, td {
+    border: 1px solid black;
+    }
+    
+    table {
+    border-collapse: collapse;
+    margin: auto;
+    }
+    
+    th, td{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    }
+    
+    th{
+    font-weight: bold;
+    background-color: #fff;
+    }
+    
+    
+    tr:nth-child(even) {
+    background-color: #DCEBE6;
+    }
+    
+    tr:hover:nth-child(1n + 2) {
+    background-color: #abcfc3;
+    color: #fff;
+    }
+
+    caption {
+        font-size: 20px;
+        border: 1px solid black;
+        background-color: #fff;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botao button {
+        width: 150px;
+        height: 50px;
+        margin-top: 5%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #bcd8cf;
+        color: #fff;
+        font-size: 1.1rem;
+    }
+
+    .botao button:hover {
+        background-color: #abcfc3;
+        color: #fff;
+    }
